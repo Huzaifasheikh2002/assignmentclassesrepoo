@@ -31,7 +31,7 @@
 // var fatherName =("Nadeem");
 // alert(fatherName);
 // var age =("20");
-// alert(age);
+// alert(age);  
 //5.//
 // var Q5=("PIZZAPIZZ\nPIZ\nPI\nP")   
 // alert(Q5)
@@ -54,11 +54,16 @@
 // var visted=("you have visted this site 14 times")
 // alert(visted)
 //3.//
-// var birthYear =("my birth year is 2002 age is 20 ");
+// var birthYear =("my birth year 2002");
 // document.write(birthYear);
 //4.//
-// var storeSite =("<b>huzaifa</b> ordered <b>5 T-shirt</b>(s) on XYZ Clothing store")
-// document.write(storeSite)
+// var userName = prompt("Enter Your Name", "huzaifa");
+// var productTitle = prompt("Enter Product Name", "Cars , Mobile etc");
+// var Quantity = +prompt("Enter Quatity Number","Quantity");
+// document.write("Customer Name : "+ userName+"<br />");
+// document.write("Product Name : " + productTitle+"<br />");
+// document.write("Quanity of Product : " + Quantity+"<br />");
+
                         //chapter#4//
                         // 1.//
 //         //  Declare 5 legal & 5 illegal variable names
@@ -75,6 +80,18 @@
 // var MyName1=(huzaifa)
 // var M_Name=(huzaifa)
 // var $M_Name=(huzaifa)  
+
+
+/////
+
+
+                          // 1.//
+// var a= "(a) A heading stating “Rules for naming JS variables";
+// var b= "(b) Variable names can only contain ______, ______,______ and ______.";
+// var c = "c) Variables must begin with a ______, ______ or_____. For example $name, _name or name";
+// var d = "d) Variable names are case _________";
+// var e = "e) Variable names should not be JS _________";
+// document.write("<p>"+a+"<p/>"+"<p>"+b+"<p/>"+"<p>"+d+"<p/>"+"<p>"+e+"<p/>");
 //2.//
 //(a)//
 // var heading =("<b>“Rules for naming JS variables”</b>")
@@ -91,34 +108,25 @@
 // chapter #5//
                                 //1.//
 
-// alert(add)
-// var num1 = prompt("Enter number 1");
-// var num2 = prompt("Enter number 2");
-// var input = prompt("Enter Operator");
-// if(input === "+"){
-// console.log(num1 + num2)
-// }
-                        //2.//
-        //multiply//  //(  *   )//
+// var num1 =+prompt("enter num1")
+// var num2 =+prompt("enter num2")
+// var addResult=("addition: "+(num1+num2));
+// var subResult=("subtraction: "+(num1-num2));
+// var multiResult=("multiply: "+(num1*num2));
+// var divResult=("division: "+(num1/num2));
+// var perResult=("percentage: "+(num1%num2));
 
-// var num1 =prompt("enter num1")
-// alert ("*")
-// var num2 =prompt("enter num2")
+// document.write(addResult+"<br />");
+// document.write(subResult+"<br />");
+// document.write(multiResult+"<br />");
+// document.write(divResult+"<br />");
+// document.write(perResult+"<br />");
 
-// console.log (num1 *num2)
-                //(  -  ) minus//
-// var num1 =prompt("enter num1")
-// alert ("-")
-// var num2 =prompt("enter num2")
-
-// console.log (num1 -num2)
-
-                //divide (  /  )//
-// var num1 =prompt("enter num1")
-// alert ("/")
-// var num2 =prompt("enter num2")
-
-// console.log (num1 /num2)
+// document.write("<p>"+addResult+"<p/>"); 
+// document.write("<p>"+subResult+"<p/>"); 
+// document.write("<p>"+multiResult+"<p/>"); 
+// document.write("<p>"+divResult+"<p/>"); 
+// document.write("<p>"+perResult+"<p/>"); 
 
 
 //////chapter 5 quetsion 4////
@@ -136,6 +144,16 @@
 
 
 // document.write(table)
+
+// var celsiusTemp = 20;
+// document.write("Temp in  Celcius : ",celsiusTemp,"<br />");
+// var farTemp = (celsiusTemp * (9/5)) + 32;
+// document.write("Temp in  Fahrenheit after convert  : ",farTemp,"<br />");
+
+// var farTemp2 = 80;
+// document.write("Temp in  Fahrenheit : ",farTemp2,"<br />")
+// var celsiusTemp2 =  (farTemp2-32)*(5/9);
+// document.write("Temp in  Celsius after convert : ",celsiusTemp2,"<br />"    );
 
                 // question 7/
 
@@ -179,8 +197,105 @@
 
 
 
+                ////6////
+         // question 1//
+
+// var a=(10);
+// document.write("the value of a is:"+ a +"<br />")
+// ++a;
+// document.write("now the vale of ++a ="+a+"<br />")
+// document.write("now the vale of ++a ="+a+"<br /><br />")
+
+// document.write("the vale of a++ ="+a+"<br />")
+// a++;
+// document.write("now the of a="+a+"<br /><br />" )
+// document.write("the value of --a =11<br />")
+// --a;
+// document.write("now the value of a="+a+"<br /><br />")
+// document.write("the value of a-- is 11<br />")
+// a--
+// document.write("now the value of a ="+a)
+
+        //question 2// chapter6//
+
+        //solve//
+        //2//
+// var a=(2)
+// document.write("a ="+ a +"<br />");
+// var b=(1)
+// document.write("b="+b+"<br/ >")
+// var result=(--a - --b + ++b + b--);
+// document.write("result ="+result)
+
+
+
+
+        //question 3//
+// var input=prompt("enter your name")
+// document.write("Hello "+input+ " Welcome")
+
+
+                        //question4///
+// var num = +prompt("Input a Number");
+// if(num == 0){
+//     num = 5;
+// }
+// else{
+//     num = num ;
+// }
+//     document.write("Table of "+num+" is given below "+"<br />")
+//     document.write(num +" X 1 = "+num*1 + "<br />");
+//     document.write(num +" X 2 = "+num*2 + "<br />");
+//     document.write(num +" X 3 = "+num*3 + "<br />");
+//     document.write(num +" X 4 = "+num*4 + "<br />");
+//     document.write(num +" X 5 = "+num*5 + "<br />");
+//     document.write(num +" X 6 = "+num*6 + "<br />");
+//     document.write(num +" X 7 = "+num*7 + "<br />");
+//     document.write(num +" X 8 = "+num*8 + "<br />");
+//     document.write(num +" X 9 = "+num*9 + "<br />");
+//     document.write(num +" X 10 = "+num*10 +"<br />");
+
+                //question 6// ///chapter //6///
+
+
+
+
+// var subject1=prompt("enter subject1")
+// var subject2=prompt("enter subject2")
+// var subject3=prompt("enter subject3")
+// var totalMarks=(100);
+
+// var subjectMarks1=+prompt("enter your marks1");
+// var subjectMarks2=+prompt("enter your marks2");
+// var subjectMarks3=+prompt("enter your marks3");
+
+// var subjectper1=(subjectMarks1/totalMarks)*100;
+// var subjectPer2=(subjectMarks2/totalMarks)*100;
+// // var subjectPer3=(subjectMarks3/totalMarks)*100;
+// document.write
+
+// document.write("<table><thead><tr><th>subject Marks</th><th>Obtained marks</th><th>percentage</th></tr></thead><tbody><tr><td>"+subject1+"</td><td>"+totalMarks+"</td><td>"+subjectMarks1+"</td><td>"+subjectper1+"</td></tr><td>"+subject2+"</td><td>"+totalMarks+"</td><td>"+subjectMarks2+"</td><td>"+subjectper2+"</td></tr><td>"+subject3+"</td><td>"+totalMarks+"</td><td>"+subjectMarks3+"</td><td>"+subjectper3+"</td></tr><th></th><th>"+(totalMarks+totalMarks+totalMarks)+"</th><th>"+(subjectMarks1+MarksOfSubject2+MarksOfSubject3)+"</th><th>"+((subjectper1+subjectPer2+subjectPer3)/3)+"</th></tr></tbody</table>");
+
+// //
+// var subjectName1 = prompt("Enter Name of First Subject")
+// var subjectName2 = prompt("Enter Name of Second Subject")
+// var subjectName3 = prompt("Enter Name of Third Subject")
+// var totalMarks = 100;
+
+// var MarksOfSubject1 = +prompt("Enter Marks of Subject 1");
+// var MarksOfSubject2 = +prompt("Enter Marks of Subject 2");
+// var MarksOfSubject3 = +prompt("Enter Marks of Subject 3");
+
+// var percentageOfSubject1 = (MarksOfSubject1/totalMarks)*100;
+// var percentageOfSubject2 = (MarksOfSubject2/totalMarks)*100;
+// var percentageOfSubject3 = (MarksOfSubject3/totalMarks)*100;
+
+// document.write("<table><thead><tr><th>Subject Marks</th><th>Obtained Marks</th><th>Percentage</th></tr></thead><tbody><tr><td>"+subjectName1+"</td><td>"+totalMarks+"</td><td>"+MarksOfSubject1+"</td><td>"+percentageOfSubject1+"</td></tr><tr><td>"+subjectName2+"</td><td>"+totalMarks+"</td><td>"+MarksOfSubject2+"</td><td>"+percentageOfSubject2+"</td></tr><tr><td>"+subjectName3+"</td><td>"+totalMarks+"</td><td>"+MarksOfSubject3+"</td><td>"+percentageOfSubject3+"</td></tr><tr><th></th><th>"+(totalMarks+totalMarks+totalMarks)+"</th><th>"+(MarksOfSubject1+MarksOfSubject2+MarksOfSubject3)+"</th><th>"+((percentageOfSubject1+percentageOfSubject2+percentageOfSubject3)/3)+"</th></tr></tbody></table>");
+
+
+
                         ////chapter9/////
-                                ///1//
+                                 ///1//
 // var city =prompt("Enter your city name")
 // if (city==="karachi"){ 
 // document.write("<h1>Welcome to city light</h1>")
@@ -201,8 +316,43 @@
 // document.write("enter your gender")
 // }
 
+// var signal1=prompt("enter signal color")
+// var signal2=prompt("enter signal color")
+// var signal3=prompt("enter signal color")
+// var msg1=("stop")
+// var msg2=("ready to move")
+// var msg3=("move now")
+// document.write("<h2>signal color</h2><h2>message</h2>","red"+"   ","orange"+"   ","green"+"  ","<p>"+msg1+"</p>","<p>"+msg2+"</p>","<p>"+msg3+"</p>")
+    
+
 
                         //////last chapter12,13// ////
+
+
+                        // var input = prompt("Enter Value");
+                        // if (input.charCodeAt() >=97 && input.charCodeAt() <=122){
+                        //     document.write("You Enter Input Lower Level Alphabets");
+                        // }
+                        // else if(input.charCodeAt() >=65 && input.charCodeAt() <=90){
+                        //     document.write("You Enter Input Upper Level Alphabets");
+                        // }
+                        // else if(input.charCodeAt() >=48 && input.charCodeAt() <=57){
+                        //     document.write("You Enter Input Number");
+                        // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                                 // question 5.
 
@@ -226,7 +376,6 @@
 // else{ 
 // console.log=("Good evening");
 // }
-
 
 
 
